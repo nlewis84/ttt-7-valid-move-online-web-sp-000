@@ -2,9 +2,9 @@
 
 def valid_move?
   if position_taken? === false
-    true
-  else
     false
+  else
+    true
   end
 end
 
