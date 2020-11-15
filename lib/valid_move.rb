@@ -3,6 +3,11 @@
 def valid_move?(board, index)
   if index.between?(0, 8)
     true
+    if position_taken? === false
+      true
+    else
+      false
+    end
   else
     false
   end
